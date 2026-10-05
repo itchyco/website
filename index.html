@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>itchyco studios</title>
+<meta name="description" content="Portfolio of itchyco studios: IT support and home lab work, plus independent game projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#8ecdbb">
+<meta property="og:title" content="itchyco studios">
+<meta property="og:description" content="Portfolio of itchyco studios: IT support and home lab work, plus independent game projects.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%238ecdbb'/%3E%3Ctext x='32' y='47' font-family='Georgia,serif' font-size='46' font-weight='700' text-anchor='middle' fill='%23f97f78' stroke='%230a0a0a' stroke-width='2'%3Ei%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#top">Skip to content</a>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="mark" href="index.html">itchyco</a>
+    <nav aria-label="Main">
+      <a href="games.html">Games</a>
+      <a href="home-labs.html">Home labs</a>
+      <a href="index.html#news">News</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <canvas id="stars" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <h1 class="letters">itchyco<br>studios</h1>
+      <p>Games and Home Labs, made by a small creator.</p>
+      <div class="cta">
+        <a class="btn" href="home-labs.html">View home labs</a>
+        <a class="btn ghost" href="games.html">Play the games</a>
+        <a class="btn ghost" id="hero-mail" href="mailto:hello@example.com">Contact me</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="games">
+    <div class="wrap">
+      <h2>Featured game</h2>
+      <p class="lede">Every game here is free to play.</p>
+      <div class="games" id="games-list" data-limit="1"></div>
+      <div class="more"><a class="btn ghost" href="games.html">See all games</a></div>
+    </div>
+  </section>
+
+  <section id="lab" class="lab">
+    <div class="wrap">
+      <h2>From the home labs</h2>
+      <p class="lede">Research and design concepts. Nothing here is for sale. These are ideas to read, borrow, and argue with.</p>
+      <div class="concepts" id="concepts-list" data-limit="1"></div>
+      <div class="more"><a class="btn ghost" href="home-labs.html">Visit the home labs</a></div>
+    </div>
+  </section>
+
+  <section id="news" class="news">
+    <div class="wrap">
+      <h2>Latest news</h2>
+      <ul id="news-list" data-limit="1"></ul>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <h2>About</h2>
+      <p>I hold an Information Systems degree and I'm pursuing IT support roles. In my own time I direct small game projects and document my home lab work.</p>
+      <p>I'm open to IT support roles and creative collaborations. Get in touch, or read more about my background.</p>
+      <div class="links"><a class="btn" href="about.html">More about me</a></div>
+      <div class="links contact-links"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="year"></span> itchyco studios</span>
+    <nav class="foot-links" id="footer-links" aria-label="Contact links"></nav>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
